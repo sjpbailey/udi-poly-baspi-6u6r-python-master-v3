@@ -1,0 +1,42 @@
+{
+	"name": "BAS6U6R",
+	"docs": "https://github.com/sjpbailey/udi-poly-baspi-6u6r-python-master-v3",
+	"type": "python3",
+	"executable": "BAS6U6R.py",
+	"install": "install.sh",
+	"description": "WiFi Controller for low voltage switching sensing and Control",
+	"notice": "Please follow all codes & safety precautions for mechanical equipment",
+	"shortPoll": "120",
+	"longPoll": "240",
+	"testMode": false,
+	"logLevel": "INFO",
+	"profile_version": "3.0.1",
+	"customParams": {
+		"nodes": "0",
+		"ip_0": "127.0.0.1",
+		"ip_1": "",
+		"ip_2": "",
+		"ip_3": "",
+		"ip_4": "",
+		"ip_5": ""		
+	},
+	"credits": [
+		{
+			"title": "Controller: Wifi Control For Low Voltage Control",
+			"author": "Steve Bailey (sjpbailey)",
+			"version": "3.0.1",
+			"date": "December 27, 2022",
+			"source": "https://github.com/sjpbailey/udi-poly-baspi-6u6r-python-master-v3",
+			"license": "https://github.com/sjpbailey/udi-poly-baspi-6u6r-python-master-v3/LICENSE"
+		}
+	],
+	"store": {
+		"developer": "sjpbailey1961@gmail.com",
+		"purchaseOptions": [
+			{
+				"isPerpetual": true,
+				"price": 0
+			}
+		]
+	}
+}

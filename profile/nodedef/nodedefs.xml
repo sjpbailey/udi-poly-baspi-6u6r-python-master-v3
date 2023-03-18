@@ -1,0 +1,58 @@
+<nodeDefs>
+    <!-- NODE DEF from 5.0 document http://wiki.universal-devices.com/index.php?title=V50_MAIN -->
+    <!-- controller, this must mach the id in your Controller class-->
+    <nodeDef id="ctl" nodeType="139" nls="ctl">
+        <sts>
+            <st id="ST" editor="bool" />
+            <!--<st id="GV0" editor="raw" />-->
+        </sts>
+        <cmds>
+            <sends />
+            <accepts>
+                <cmd id="DISCOVER" />
+            </accepts>
+        </cmds>
+    </nodeDef>
+    <nodeDef id="zone" nls="str">
+        <editors />
+        <sts>
+            <st id="GV0" editor="RAWVAL" />
+            <st id="GV1" editor="RAWVAL" />
+            <st id="GV2" editor="RAWVAL" />
+            <st id="GV3" editor="RAWVAL" />
+            <st id="GV4" editor="RAWVAL" />
+            <st id="GV5" editor="RAWVAL" />
+            <st id="GV6" editor="onoff" />
+            <st id="GV7" editor="onoff" />
+            <st id="GV8" editor="onoff" />
+            <st id="GV9" editor="onoff" />
+            <st id="GV10" editor="onoff" />
+            <st id="GV11" editor="onoff" />
+            <st id="ST" editor="bool" />
+        </sts>
+        <cmds>
+            <sends />
+            <accepts>
+                <cmd id="DON1">
+                    <p id="" editor="onoff" init="GV6" />
+                </cmd>
+                <cmd id="DON2">
+                    <p id="" editor="onoff" init="GV7" />
+                </cmd>
+                <cmd id="DON3">
+                    <p id="" editor="onoff" init="GV8" />
+                </cmd>
+                <cmd id="DON4">
+                    <p id="" editor="onoff" init="GV9" />
+                </cmd>
+                <cmd id="DON5">
+                    <p id="" editor="onoff" init="GV10" />
+                </cmd>
+                <cmd id="DON6">
+                    <p id="" editor="onoff" init="GV11" />
+                </cmd>
+                <cmd id="QUERY" />
+            </accepts>
+        </cmds>
+    </nodeDef>
+</nodeDefs>

@@ -1,0 +1,58 @@
+
+# controller
+ND-ctl-NAME = Controller
+ND-ctl-ICON = Irrigation
+ST-ctl-ST-NAME = NodeServer Online
+#ST-ctl-GV0-NAME = Number of children
+CMD-ctl-DISCOVER-NAME = Re-Discover
+
+# device
+ND-zone-NAME = Device
+ND-zone-ICON = Irrigation
+CMD-str-QUERY-NAME = Query
+ST-str-ST-NAME = NodeServer Online
+ST-str-GV0-NAME = IP Active
+
+# Debug/Logger Modes
+#CDM-9 = Debug + Modules
+#CDM-10 = Debug
+#CDM-20 = Info
+#CDM-30 = Warning
+#CDM-40 = Error
+#CDM-50 = Critical
+
+# Node
+ST-str-GV0-NAME = Input 1
+ST-str-GV1-NAME = Input 2
+ST-str-GV2-NAME = Input 3
+ST-str-GV3-NAME = Input 4
+ST-str-GV4-NAME = Input 5
+ST-str-GV5-NAME = Input 6
+
+ST-str-GV6-NAME = Output 1
+ST-str-GV7-NAME = Output 2
+ST-str-GV8-NAME = Output 3
+ST-str-GV9-NAME = Output 4
+ST-str-GV10-NAME = Output 5
+ST-str-GV11-NAME = Output 6
+
+CMD-str-DON1-NAME = Output 1
+CMD-str-DON2-NAME = Output 2
+CMD-str-DON3-NAME = Output 3
+CMD-str-DON4-NAME = Output 4
+CMD-str-DON5-NAME = Output 5
+CMD-str-DON6-NAME = Output 6
+
+PUMP-0 = High Speed
+PUMP-1 = Off
+PUMP-2 = Low Speed
+
+VALVE-0 = Skim
+VALVE-1 = Stop
+VALVE-2 = Sweep
+
+HEAT-0 = Disabled
+HEAT-1 = Auto
+
+LIGHT-0 = Off
+LIGHT-1 = On
