@@ -90,7 +90,7 @@ class bas6uNode(udi_interface.Node):
         input_val = self.bc.universalInput(iIndex)
         count = 0
         if input_val is not None:
-            count = int(float(input_val))
+            count = float(input_val) #int(float(input_val))
             self.setDriver(driver, count)
         else:
             return
