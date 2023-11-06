@@ -53,9 +53,7 @@ class bas6uNode(udi_interface.Node):
                 LOGGER.info(str(self.bc.boQty) +
                             ' Binary outputs in this BASpi')
                 LOGGER.info("BASpiPool IO Points configured")
-            if self.bc.ePlatform == Platform.BASC_PI:
-                self.setDriver("ST", 1)
-            if self.bc.ePlatform == Platform.BASC_ED:
+            if self.bc.ePlatform == Platform.BASC_PI or self.bc.ePlatform == Platform.BASC_ED:
                 self.setDriver("ST", 1)
             else:
                 self.setDriver("ST", 0)
