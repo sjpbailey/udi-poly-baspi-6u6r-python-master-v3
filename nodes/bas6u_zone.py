@@ -55,10 +55,10 @@ class bas6uNode(udi_interface.Node):
                 LOGGER.info("BASpiPool IO Points configured")
             if self.bc.ePlatform == Platform.BASC_PI:
                 self.setDriver("ST", 1)
-            elif self.bc.ePlatform == Platform.BASC_ED:
+            if self.bc.ePlatform == Platform.BASC_ED:
                 self.setDriver("ST", 1)
             else:
-                pass
+                self.setDriver("ST", 0)
 
             # Input Output Status
             # Universal Inputs Status
@@ -147,6 +147,7 @@ class bas6uNode(udi_interface.Node):
 
     def query(self, command=None):
         self.start()
+        self.reportDrivers()
         LOGGER.info(self.bc)
 
     drivers = [
