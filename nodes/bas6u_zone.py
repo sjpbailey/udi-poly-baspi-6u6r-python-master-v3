@@ -89,13 +89,12 @@ class bas6uNode(udi_interface.Node):
     def setInputDriver(self, driver, iIndex):
         input_val = self.bc.universalInput(iIndex)
         count = 0
-        failed = 1
         if input_val is not None:
             count = float(input_val)
             self.setDriver(driver, count)
         if input_val == "nan":
             count = float(input_val)
-            self.setDriver(driver, failed)
+            self.setDriver(driver, 0)
         else:
             return
 
